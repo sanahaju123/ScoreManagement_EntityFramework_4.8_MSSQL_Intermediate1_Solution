@@ -167,9 +167,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202311051518228_initial.cs" />
-    <Compile Include="Migrations\202311051518228_initial.designer.cs">
-      <DependentUpon>202311051518228_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202311270823293_initial.cs" />
+    <Compile Include="Migrations\202311270823293_initial.designer.cs">
+      <DependentUpon>202311270823293_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Score.cs" />
@@ -194,8 +194,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202311051518228_initial.resx">
-      <DependentUpon>202311051518228_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202311270823293_initial.resx">
+      <DependentUpon>202311270823293_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
