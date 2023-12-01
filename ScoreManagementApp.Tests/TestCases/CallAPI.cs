@@ -44,7 +44,7 @@ namespace ScoreManagementApp.Tests.TestCases
             return status;
         }
 
-        public static string GetCurrentMethodName(string name = "")
+        public static string GetCurrentMethodName([System.Runtime.CompilerServices.CallerMemberName] string name = "")
         {
             return name;
         }
